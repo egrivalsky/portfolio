@@ -1,3 +1,7 @@
+html {
+  background-color: rgb(245, 250, 255);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Reenie Beanie', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,12 +21,17 @@ nav {
 }
 
 #resume {
-  margin: 0;
-  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 
 #contact {
   display: flex;
   flex-direction: column;
   font-size: xx-large;
+}
+
+a {
+  color: black
 }
