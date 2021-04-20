@@ -7,7 +7,7 @@ const Projects = () => {
         <div>
             <h1 class='container'>Projects.</h1>
             <main class="container" id="projects-container">
-                <a href="jokebot8000.herokuapp.com" target="_blank" class="card" style={{width: 18+'rem'}} id="project-card">
+                <a href="https://jokebot8000.herokuapp.com" target="_blank" class="card" style={{width: 18+'rem'}} id="project-card">
                     <div class="card-title">Jokebot8000</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946808/jokebot_ylc00p.png" className="card-img-top" alt="portrait of robot sculpture" />
                     <div class="card-body">
@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
                 </a>
 
-                <a href="www.erikgrivalsky.com/baristamax" target="_blank" class="card" style={{width: 18+'rem'}} id="project-card">
+                <a href="https://www.erikgrivalsky.com/baristamax" target="_blank" class="card" style={{width: 18+'rem'}} id="project-card">
                     <div class="card-title">BaristaMax</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946927/baristamax_py30ru.png" class="card-img-top" alt="screen shot of the baristamax game" />
                     <div class="card-body">
