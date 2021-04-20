@@ -13,18 +13,15 @@ function App() {
       <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Hire Erik G!</a>
+    <a class="navbar-brand" href="/">Hire Erik G!</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-5">
                     <ul class="navbar-nav mr-auto">
                         
-                        <li class="nav-item active">
-                        <Link to='/' class="nav-link">Home</Link>
-                        </li>
                         <li class="nav-item active ">
-                        <Link to='/about' class="nav-link">About</Link>
+                        <Link to='/' class="nav-link">Home</Link>
                         </li>
                         <li class="nav-item active">
                         <Link to='/projects' class="nav-link">Projects</Link>
