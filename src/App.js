@@ -40,7 +40,7 @@ function App() {
             <li><a class="dropdown-item" href="http://www.github.com/egrivalsky" target="_blank">Github</a></li>
             <li><a class="dropdown-item" href="http://www.linkedin.com/in/erikgrivalsky" target="_blank">LinkedIn</a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" >Non-tech stuff</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/ohmantrees/" target="_blank">Non-tech stuff</a></li>
           </ul>
         </li>
         {/* <li class="nav-item">
