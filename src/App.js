@@ -58,9 +58,8 @@ function App() {
     </header>
 
       <body>
-
+            <Route path='/portfolio' component={Home} />
             <Route exact path='/' component={Home} />
-            <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
             <Route path='/resume' component={Resume} />
             <Route path='/contact' component={Contact} />
