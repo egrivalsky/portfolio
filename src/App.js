@@ -67,7 +67,10 @@ function App() {
       </body>
       </Router>
 
-   
+      <footer>
+
+        
+      </footer>
     </div>
   );
 }

@@ -7,22 +7,34 @@ const Projects = () => {
         <div>
             <h1 class='container'>Projects.</h1>
             <main class="container" id="projects-container">
+
                 <div class="card" style={{width: 18+'rem'}} id="project-card">
+
                     <div class="card-title">Jokebot8000</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1621820541/jokebot_xstynj.png" className="card-img-top" alt="portrait of robot sculpture" />
-                    <a href="https://jokebot8000.herokuapp.com" target="_blank" class="card-body">
+
                         <p class="card-text">A word association tool to help joke writers write jokes. Users can find current headlines and click to search for related words, then tweet jokes.
                         </p>
                         <sub class="tech-used">Python, Django, Javascript, Twitter API, NY Times API, Datamuse API</sub>
                     </a>
                     <h3 class='container'>
-                        <a href="https://github.com/egrivalsky/jokebot_django" target="_blank">
-                             See the Github Repo
-                        </a>
+                        <ul>
+                            <li>
+                                <a href="https://jokebot8000.herokuapp.com/" target="_blank">
+                                See it in action!
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/egrivalsky/jokebot_django" target="_blank">
+                                    See the Github Repo.
+                                </a>
+                            </li>
+                        </ul>
                     </h3>
                 </div>
 
                 <div href="#"class="card" style={{width: 18+'rem'}} id="project-card">
+
                     <div class="card-title">The Platform</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946931/platform_gcwvgs.png" class="card-img-top" alt="screenshot of the platform app" />
                     <a href="https://the-platform-nyc.herokuapp.com" target="_blank" class="card-body">
@@ -41,6 +53,7 @@ const Projects = () => {
                 </div>
 
                 <div class="card" style={{width: 18+'rem'}} id="project-card">
+
                     <div class="card-title">BaristaMax</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946927/baristamax_py30ru.png" class="card-img-top" alt="screen shot of the baristamax game" />
                     <a href="https://www.erikgrivalsky.com/baristamax" target="_blank" class="card-body">
