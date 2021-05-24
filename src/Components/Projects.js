@@ -8,7 +8,7 @@ const Projects = () => {
             <h1 class='container'>Projects.</h1>
             <main class="container" id="projects-container">
 
-                <div class="card" style={{width: 18+'rem'}} id="project-card">
+                <div class="card" style={{width: 18+'rem'}} class="project-card">
 
                     <div class="card-title">Jokebot8000</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1621820541/jokebot_xstynj.png" className="card-img-top" alt="portrait of robot sculpture" />
@@ -33,7 +33,7 @@ const Projects = () => {
                     </h3>
                 </div>
 
-                <div href="#"class="card" style={{width: 18+'rem'}} id="project-card">
+                <div href="#"class="card" style={{width: 18+'rem'}} class="project-card">
 
                     <div class="card-title">The Platform</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946931/platform_gcwvgs.png" class="card-img-top" alt="screenshot of the platform app" />
@@ -48,8 +48,8 @@ const Projects = () => {
                     <h3 class='container'>
                         <ul>
                             <li>
-                                <a href="https://the-platform-nyc.herokuapp.com" target="_blank">
-                                    See it in action!
+                                <a href="#" target="_blank">
+                                    Demo coming soon
                                 </a>
                             </li>
                             <li>
@@ -61,22 +61,34 @@ const Projects = () => {
                     </h3>
                 </div>
 
-                <div class="card" style={{width: 18+'rem'}} id="project-card">
+                <div class="card" style={{width: 18+'rem'}} class="project-card">
 
                     <div class="card-title">BaristaMax</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946927/baristamax_py30ru.png" class="card-img-top" alt="screen shot of the baristamax game" />
-                    <a href="https://www.erikgrivalsky.com/baristamax" target="_blank" class="card-body">
+                    <div>
+                    
                     <p class="card-text">
                         A coffee shop simulation game. Player receives cafe orders and has to select ingredients in a given time. A browser-based, functionally programmed point-and-click game.
                     </p>
                     <sub class="tech-used">
                         HTML, CSS, JavaScript, DOM manipulation
                     </sub>
-                    </a>
+
+                    </div>
                     <h3 class='container'>
-                        <a href="https://git.generalassemb.ly/ger1k/BaristaMax" target="_blank">
-                             See the Github Repo
-                        </a>
+                        <ul>
+                            <li>
+                            <a href="https://www.erikgrivalsky.com/baristamax" target="_blank">
+                                See it in action!
+                            </a>
+                            </li>
+                            <li>
+                            <a href="https://git.generalassemb.ly/ger1k/BaristaMax" target="_blank">
+                                See the Github Repo
+                            </a>
+                            </li>
+                        </ul>
+
                     </h3>
                 </div>
             </main>
