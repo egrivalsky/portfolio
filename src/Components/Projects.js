@@ -9,7 +9,7 @@ const Projects = () => {
             <main class="container" id="projects-container">
                 <div class="card" style={{width: 18+'rem'}} id="project-card">
                     <div class="card-title">Jokebot8000</div>
-                    <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946808/jokebot_ylc00p.png" className="card-img-top" alt="portrait of robot sculpture" />
+                    <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1621820541/jokebot_xstynj.png" className="card-img-top" alt="portrait of robot sculpture" />
                     <a href="https://jokebot8000.herokuapp.com" target="_blank" class="card-body">
                         <p class="card-text">A word association tool to help joke writers write jokes. Users can find current headlines and click to search for related words, then tweet jokes.
                         </p>
