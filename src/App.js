@@ -63,22 +63,22 @@ function App() {
             <Route path='/projects' component={Projects} />
             <Route path='/resume' component={Resume} />
             <Route path='/contact' component={Contact} />
+            <footer>
+  <div class="navbar navbar-expand-lg navbar-light bg-light" id="footer">
 
-      </body>
-      </Router>
-<footer>
-  <div class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <div class="container-fluid">
+    {/* <div class="container-fluid"> */}
       <ul class="navbar-brand" id="footer-list">
-        <li>erikgrivalsky@gmail.com</li>
-        <li><a href="https://www.erikgrivalsky.com/resume">Resume</a></li>
-        <li><a href="https://linkedin.com/in/erikgrivalsky" target="_blank">LinkedIn</a></li>
+        <li class="footer-li">erikgrivalsky@gmail.com</li>
+        <li class="footer-li"><a href="https://www.erikgrivalsky.com/resume">Resume</a></li>
+        <li class="footer-li"><a href="https://linkedin.com/in/erikgrivalsky" target="_blank">LinkedIn</a></li>
       </ul>
-    </div>
+    {/* </div> */}
 
   </div>
 </footer>
+      </body>
+      </Router>
+
     </div>
   );
 }
