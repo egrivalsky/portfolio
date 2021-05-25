@@ -20,12 +20,12 @@ const Projects = () => {
                     <h3 class='container'>
                         <ul>
                             <li>
-                                <a href="https://jokebot8000.herokuapp.com/" target="_blank">
+                                <a href="https://jokebot8000.herokuapp.com/" target="_blank" rel="noreferrer">
                                 See it in action!
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/egrivalsky/jokebot_django" target="_blank" class="card-body">
+                                <a href="https://github.com/egrivalsky/jokebot_django" target="_blank" class="card-body" rel="noreferrer">
                                     See the Github Repo.
                                 </a>
                             </li>
@@ -48,12 +48,12 @@ const Projects = () => {
                     <h3 class='container'>
                         <ul>
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="#" target="_blank" rel="noreferrer">
                                     Demo coming soon
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/egrivalsky/subway-club-2" target="_blank">
+                                <a href="https://github.com/egrivalsky/subway-club-2" target="_blank" rel="noreferrer">
                                     See the Github Repo
                                 </a>
                             </li>
@@ -78,12 +78,12 @@ const Projects = () => {
                     <h3 class='container'>
                         <ul>
                             <li>
-                            <a href="https://www.erikgrivalsky.com/baristamax" target="_blank">
+                            <a href="https://www.erikgrivalsky.com/baristamax" target="_blank" rel="noreferrer">
                                 See it in action!
                             </a>
                             </li>
                             <li>
-                            <a href="https://git.generalassemb.ly/ger1k/BaristaMax" target="_blank">
+                            <a href="https://git.generalassemb.ly/ger1k/BaristaMax" target="_blank" rel="noreferrer">
                                 See the Github Repo
                             </a>
                             </li>

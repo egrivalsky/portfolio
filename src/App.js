@@ -63,14 +63,22 @@ function App() {
             <Route path='/projects' component={Projects} />
             <Route path='/resume' component={Resume} />
             <Route path='/contact' component={Contact} />
-           
+
       </body>
       </Router>
+<footer>
+  <div class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <footer>
+    <div class="container-fluid">
+      <ul class="navbar-brand" id="footer-list">
+        <li>Hire Erik G!</li>
+        <li>Hire Erik G!</li>
+        <li>Hire Erik G!</li>
+      </ul>
+    </div>
 
-         
-      </footer>
+  </div>
+</footer>
     </div>
   );
 }
