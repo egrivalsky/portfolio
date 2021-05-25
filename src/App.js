@@ -63,7 +63,7 @@ function App() {
             <Route path='/projects' component={Projects} />
             <Route path='/resume' component={Resume} />
             <Route path='/contact' component={Contact} />
-            <footer>
+
   <div class="navbar navbar-expand-lg navbar-light bg-light" id="footer">
 
     {/* <div class="container-fluid"> */}
@@ -75,7 +75,8 @@ function App() {
     {/* </div> */}
 
   </div>
-</footer>
+
+
       </body>
       </Router>
 

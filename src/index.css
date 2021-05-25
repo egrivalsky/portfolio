@@ -84,7 +84,7 @@ sub {
 footer {
   position: fixed;
   bottom: 0;
-  width: 70%;
+  width: 80%;
   align-self: center;
   text-align: center;
   font-size: xx-large;
@@ -108,4 +108,8 @@ footer {
 
 #footer {
   margin: 0 auto;
+  width: 60%;
+  position: fixed;
+  bottom: 0;
+  
 }
