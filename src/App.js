@@ -71,9 +71,9 @@ function App() {
 
     <div class="container-fluid">
       <ul class="navbar-brand" id="footer-list">
-        <li>Hire Erik G!</li>
-        <li>Hire Erik G!</li>
-        <li>Hire Erik G!</li>
+        <li>erikgrivalsky@gmail.com</li>
+        <li><a href="https://www.erikgrivalsky.com/resume">Resume</a></li>
+        <li><a href="https://linkedin.com/in/erikgrivalsky" target="_blank">LinkedIn</a></li>
       </ul>
     </div>
 
