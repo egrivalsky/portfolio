@@ -7,7 +7,7 @@ import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div class="appJs">
+    <div>
       <Router>
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -49,35 +49,28 @@ function App() {
           </nav>
         </header>
 
-        <body>
+        <div class="wrapper">
           <Route exact path='/' component={Home} /> 
           <Route path='/portfolio' component={Home} />
           <Route path='/projects' component={Projects} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
-        </body>
+        </div>
 
+
+        <div class="spacer"></div>
 
         <footer>
           <div class="navbar navbar-expand-lg navbar-light bg-light" id="footer">
-            {/* <div class="container-fluid"> */}
                 <ul class="navbar-nav mr-auto" id="footer-list"> 
                   <li class="footer-li">erikgrivalsky@gmail.com</li>
-                  <li class="footer-li"><a href="https://www.erikgrivalsky.com/resume">Resume</a></li>
+                  <li class="footer-li"><Link to='/resume'>Resume</Link></li>
                   <li class="footer-li"><a href="https://linkedin.com/in/erikgrivalsky" target="_blank">LinkedIn</a></li>
                 </ul>
-            {/* </div> */}
           </div>
         </footer>
 
-
-
-
-
-
-
       </Router>
-
     </div>
   );
 }
