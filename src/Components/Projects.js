@@ -20,14 +20,10 @@ const Projects = () => {
                     <h3 class='container'>
                         <ul>
                             <li>
-                                <a href="https://jokebot8000.herokuapp.com/" target="_blank" rel="noreferrer">
-                                See it in action!
-                                </a>
+                                <a href="https://jokebot8000.herokuapp.com/" target="_blank" rel="noreferrer">See it in action!</a>
                             </li>
                             <li>
-                                <a href="https://github.com/egrivalsky/jokebot_django" target="_blank" class="card-body" rel="noreferrer">
-                                    See the Github Repo.
-                                </a>
+                                <a href="https://github.com/egrivalsky/jokebot_django" target="_blank" rel="noreferrer">See the Github Repo.</a>
                             </li>
                         </ul>
                     </h3>
@@ -37,7 +33,7 @@ const Projects = () => {
 
                     <div class="card-title">The Platform</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946931/platform_gcwvgs.png" class="card-img-top" alt="screenshot of the platform app" />
-                    <div>
+                    <div class="card-body">
                     <p class="card-text"> 
                         A social media platform based on the NYC subway system. Users register securely and can manage posts and comments, share photos, follow one another, and rate subway stations. 
                     </p>
@@ -65,7 +61,7 @@ const Projects = () => {
 
                     <div class="card-title">BaristaMax</div>
                     <img src="https://res.cloudinary.com/dbljwcjis/image/upload/v1618946927/baristamax_py30ru.png" class="card-img-top" alt="screen shot of the baristamax game" />
-                    <div>
+                    <div class="card-body">
                     
                     <p class="card-text">
                         A coffee shop simulation game. Player receives cafe orders and has to select ingredients in a given time. A browser-based, functionally programmed point-and-click game.
